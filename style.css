@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: linear-gradient(to top right, #1a2a6c, #b21f1f, #fdbb2d) no-repeat;
+}
+
+.container {
+    max-width: 1172px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.inner {
+    display: flex;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.inner p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.play-again {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    background-color: transparent;
+    text-transform: uppercase;
+    border: none;
+}
+.label-score {
+    margin-right: 66px;
+}
+.icon {
+    width: 28px;
+    margin-right: 16px;
+    color: #fff;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    width: 180px;
+    height: 180px;
+    background: #ffffff33;
+    border-radius: 50%;
+    margin-bottom: 60px;
+}
+
+.message {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.between {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.btn {
+    margin-bottom: 32px;
+    align-items: center;
+    display: flex;
+}
+
+.guess {
+    color: #fff;
+    max-width: 280px;
+    padding: 15px 24px;
+    line-height: 30px;
+    border: 1px solid #fff;
+    border-right: none;
+    background-color: transparent;
+    border-radius: 8px 0px 0px 8px;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    outline: none;
+}
+
+.check {
+    font-weight: 600;
+    line-height: 30px;
+    padding: 15px 28px;
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    font-size: 20px;
+    outline: none;
+}
+
+.guess placeholder {
+    color: #fff;
+}

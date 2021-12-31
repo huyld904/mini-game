@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <!-- icon -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="inner">
+                    <p class="label-score">score: <span class="score">20</span></p>
+                    <p class="label-highscore">highscore: <span class="highscore">0</span></p>
+                    <button class="play-again">
+                        <span class="material-icons-outlined icon"> cached </span>play again
+                    </button>
+                </div>
+                <div class="content">
+                    <h1>Guess My Number</h1>
+                    <div class="number">?</div>
+                    <p class="message">“Start guessing!”</p>
+                    <p class="between">(A number between 1 and 20)</p>
+                    <div class="btn">
+                        <input type="number" class="guess" placeholder="Enter number" />
+                        <button class="check">Check</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <script src="script.js"></script>
+    </body>
+</html>
